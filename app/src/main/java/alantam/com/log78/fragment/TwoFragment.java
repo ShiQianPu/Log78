@@ -14,7 +14,7 @@ import com.stx.xhb.xbanner.XBanner;
 
 import java.util.List;
 
-import alantam.com.log78.DizhiActivity;
+import alantam.com.log78.activity.DizhiActivity;
 import alantam.com.log78.R;
 import alantam.com.log78.adapter.TwoShowAdapter;
 import alantam.com.log78.base.BaseFragment;

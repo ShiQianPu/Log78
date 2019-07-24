@@ -4,7 +4,7 @@ import android.content.Intent;
 import android.view.View;
 import android.widget.Toast;
 
-import alantam.com.log78.DizhiActivity;
+import alantam.com.log78.activity.DizhiActivity;
 import alantam.com.log78.R;
 import alantam.com.log78.base.BaseFragment;
 
@@ -52,6 +52,13 @@ public class FiveFragment extends BaseFragment {
              public void onClick(View view) {
                  Intent intent = new Intent(getActivity(),DizhiActivity.class);
                  startActivity(intent);
+             }
+         });
+         view.findViewById(R.id.mypay).setOnClickListener(new View.OnClickListener() {
+             @Override
+             public void onClick(View view) {
+                 //点击我的钱包可以查看余额，余额支付
+                 Toast.makeText(getActivity(), "余额", Toast.LENGTH_SHORT).show();
              }
          });
     }

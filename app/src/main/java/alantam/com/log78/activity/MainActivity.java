@@ -1,4 +1,4 @@
-package alantam.com.log78;
+package alantam.com.log78.activity;
 
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentPagerAdapter;
@@ -10,6 +10,7 @@ import android.widget.RadioGroup;
 import java.util.ArrayList;
 import java.util.List;
 
+import alantam.com.log78.R;
 import alantam.com.log78.fragment.FiveFragment;
 import alantam.com.log78.fragment.FourFragment;
 import alantam.com.log78.fragment.OneFragment;
